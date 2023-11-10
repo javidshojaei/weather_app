@@ -1,0 +1,55 @@
+
+body{
+  background-image: url(./photos/sunset_bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.weatherApp_container{
+  text-align: center;
+  border: 1px solid black;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));  
+  backdrop-filter: blur(3px);
+  border-radius: 20px;
+  margin-top: 50px;
+  color: white;
+}
+
+
+.search_input{
+  padding: 8px;
+  border-radius: 10px;
+  outline: none;
+  border: 0px ;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));  
+  color: white;
+  font-size: 20px;
+}
+
+.searchBtn{
+  padding: 7px;
+  font-size: 18px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 0px ;
+  background-color: aquamarine;
+  transition: all 200ms;
+}
+
+.searchBtn:hover{
+  background-color: rgb(182, 182, 255);
+}
+
+.temp{
+  font-size: 25px;
+}
+
+img{
+  margin-top: 15px;
+  width: 280px;
+  border-radius: 15px;
+  
+}
